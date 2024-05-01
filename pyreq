@@ -1,0 +1,9 @@
+fastapi
+sqlalchemy
+python-dotenv
+python-jose[cryptography]
+passlib
+aiomysql
+pyyaml
+apscheduler
+pylxd

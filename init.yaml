@@ -1,0 +1,11 @@
+#cloud-config
+users:
+  - name: user
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMohmP2l9ub+kghYk0+YeK9jg+ocAmGVxp5cyMn+iqht ethan@DESKTOP-CF0A53P
+
+package_update: false
+package_upgrade: false
+packages:
+  - openssh-server
